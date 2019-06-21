@@ -1,6 +1,6 @@
 version: '2.1'
 services:
-  academy-ldap:
+  undrive-ldap:
     image: osixia/openldap:1.1.8
     environment:
       COMPOSE_HTTP_TIMEOUT: 200
